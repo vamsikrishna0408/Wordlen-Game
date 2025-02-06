@@ -53,6 +53,11 @@
   
   /* Responsive Styles */
   @media (max-width: 600px) {
+    .virtual-keyboard .keyboard-key {
+      width: 25px;
+      text-align: center;
+    }
+    
     .keyboard-key {
       padding: 5px;
       margin: 0 3px;
